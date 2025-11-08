@@ -1,0 +1,11 @@
+The unique() function takes a vector argument and returns a vector with only the unique elements in that vector (removing all duplicates).
+
+The floor() function rounds a decimal down to the next integer, and the ceiling() function will round up to the next integer.
+
+install.packages('package-name')
+library(package-name)      //import the library
+
+vectorized statistical calculations, no need to use loops to perform single operation
+does not need to be compiled 
+
+ggplot()
