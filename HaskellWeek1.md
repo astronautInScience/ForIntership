@@ -1,9 +1,4 @@
-# 🧠 Haskell Exercises and Concepts — Notes
 
-This document contains my study notes, solutions, and explanations for Haskell exercises (5–8).  
-All examples were developed and tested in **VS Code** using **GHCi** on Windows.
-
----
 
 ## ⚙️ GHCi Essentials
 
