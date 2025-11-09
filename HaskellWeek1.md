@@ -258,8 +258,3 @@ These exercises covered:
 - Modular design and recursion for number-to-word conversion (Exercise 7)
 - Pattern-based output generation with loops and lists (Exercise 8)
 
----
-
-### Author
-> Written and tested by *Your Name*  
-> Applied Science University — Haskell Practice Notes (Exercises 5–8)
