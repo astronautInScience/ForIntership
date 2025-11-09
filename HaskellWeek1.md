@@ -244,12 +244,5 @@ christmasTree n = concat [ triangle k | k <- [1..n] ]
 | **Modules** | Reusable files imported using `import`. |
 | **Pure vs IO** | Pure = returns value; IO = interacts with the outside world. |
 
----
 
-## ✅ Summary
-These exercises covered:
-- Functional and lazy evaluation (Exercise 5)
-- Data manipulation using higher-order functions (Exercise 6)
-- Modular design and recursion for number-to-word conversion (Exercise 7)
-- Pattern-based output generation with loops and lists (Exercise 8)
 
