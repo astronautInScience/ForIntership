@@ -9,3 +9,4 @@ vectorized statistical calculations, no need to use loops to perform single oper
 does not need to be compiled 
 
 ggplot()
+
