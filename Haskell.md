@@ -232,17 +232,12 @@ christmasTree n = concat [ triangle k | k <- [1..n] ]
 
 ---
 
-## 🔑 Key Haskell Concepts Recap
+### Declaration style
+where --- more readable (a bit limited)
+let .... in (more flexible)
 
-| Concept | Description |
-|----------|--------------|
-| **Normal Order Evaluation** | Expands outermost expressions before inner ones (lazy). |
-| **Lazy Evaluation** | Values are computed only when needed. |
-| **Guards** | `| condition = result` used for readable branching. |
-| **Recursion** | Functions calling themselves on smaller inputs. |
-| **let ... in ...** | Defines local variables within expressions. |
-| **Modules** | Reusable files imported using `import`. |
-| **Pure vs IO** | Pure = returns value; IO = interacts with the outside world. |
-
-
+demo :: Integer -> Integer -> Integer
+demo x y = let a = x - y
+               b = x + y
+           in (a+ 1) * (b + 2)
 
