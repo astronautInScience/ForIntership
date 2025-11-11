@@ -10,3 +10,8 @@ does not need to be compiled
 
 ggplot()
 
+command to set the working directory: setwd()
+                                      getwd()
+
+library to read excel library(readxl)
+
